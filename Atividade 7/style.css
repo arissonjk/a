@@ -1,0 +1,24 @@
+.title1 {
+    color: #f4eded; 
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    font-size: 20pt; 
+    font-weight: bold;
+}
+.conteudo {
+    padding: 20px;
+    .fontSerif {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 80px;
+        font-style: normal;
+    }
+    .fontSans-Serif {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+    }
+    .fontMonospace {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 20px;
+        font-style: oblique;
+    }
+}
