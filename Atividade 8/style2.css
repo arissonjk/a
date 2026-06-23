@@ -1,29 +1,29 @@
+body {
+    background-color: #d6d6d6;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
     .noticia {
         font-family: "opensans-regular", arial, sans-serif;
         background-color: #F5F5DC;
-        border: 1px solid black;
         color: #333;
         font-size: 16px;
-        padding-left: 15px;
+        padding-left: 10px;
         padding-right: 10px;
         text-align: justify;
         line-height: 24px;
-        width: 500px;
-        margin: 20px;
-        float: left;
+        width: 260px;
+        height: 350px;
+        margin: 5px;
     }
-    .noticia h1 {
-     color: #c4170c;
+    .noticia p {
+     color: black;
         font-family: "Helvetica Neue", Arial, sans-serif;
-        margin: 8px;
     }
 }
 .imagem {
-    float: left;
-    width: 200px;
+    width: 250px;
+    height: 240px;
     padding: 10px;
-
 }
