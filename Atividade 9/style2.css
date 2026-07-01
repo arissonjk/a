@@ -1,0 +1,44 @@
+/* Reset básico para colar as caixas nas bordas da tela */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: #aed8f2;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #fbc2d4;
+    padding: 20px;
+}
+
+.chefe {
+    display: flex;
+    width: 100%;
+}
+
+#relativo {
+    width: 25%;
+    background-color: #f17c7c;
+    padding: 300px 0;
+}
+
+#absoluto {
+    width: 50%;
+    background-color: #90ee90;
+    padding: 300px 0;
+}
+
+#fixo {
+    width: 25%;
+    background-color: #f17c7c;
+    padding: 300px 0;
+}

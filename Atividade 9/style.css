@@ -1,0 +1,44 @@
+body {
+    background-color: #44d07f;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 10px;
+    width: 900px;
+    margin: 30px auto; 
+}
+
+.caixa {
+    background-color: red;
+    margin: 10px; 
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+#relativo{
+    position: relative;
+    left: 30px;
+}
+
+#absoluto{
+    position: absolute;
+    left: 30px;
+}
+
+#fixo{
+    position: fixed;
+    left: 300px;
+    top: 0px;
+}
+
+.mensagem {
+    position: fixed;
+    left: 1130px;
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 70px;
+}
